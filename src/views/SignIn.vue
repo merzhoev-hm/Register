@@ -11,6 +11,8 @@ import Loader from "@/components/Loader.vue";
 const router = useRouter();
 const authStore = useAuthStore();
 
+console.log(import.meta.env)
+
 const email = ref();
 const password = ref();
 
