@@ -5,7 +5,7 @@ import { useAuthStore } from "@/stores/auth";
 
 import InputText from "primevue/inputtext";
 import Button from "primevue/button";
-import Message from "primevue/Message";
+import Message from "primevue/message";
 import Loader from "@/components/Loader.vue";
 
 const router = useRouter();
