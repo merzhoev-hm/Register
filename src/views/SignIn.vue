@@ -11,12 +11,14 @@ import Loader from "@/components/Loader.vue";
 const router = useRouter();
 const authStore = useAuthStore();
 
-console.log(import.meta.env)
+
 
 const email = ref();
 const password = ref();
 
 const signin = async () => {
+  console.log(import.meta.env.VITE_API_KEY_FIREBASE)
+  console.log(import.meta.env)
   await authStore.auth(
     { email: email.value, password: password.value },
     "signin"
