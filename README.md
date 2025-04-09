@@ -1,5 +1,8 @@
 # Ссылка деплой
-tangerine-custard-23ae9d.netlify.app
+https://tangerine-custard-23ae9d.netlify.app/
+
+
+
 
 
 ## Recommended IDE Setup
